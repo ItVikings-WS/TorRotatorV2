@@ -1,0 +1,18 @@
+# Core dependencies
+stem==1.8.1                # Tor controller library
+requests==2.31.0           # HTTP requests library
+requests[socks]==2.31.0    # SOCKS proxy support for requests
+pyyaml==6.0.1              # YAML configuration parsing
+
+# User interface
+rich==13.6.0               # Rich text and formatting in terminal
+argparse==1.4.0            # Command-line argument parsing
+
+# # Testing (optional)
+# pytest==7.4.2              # Testing framework
+# pytest-cov==4.1.1          # Test coverage reporting
+
+# Development tools (optional)
+black==23.9.1              # Code formatting
+isort==5.12.0              # Import sorting
+flake8==6.1.0              # Linting
