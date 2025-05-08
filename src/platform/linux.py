@@ -17,7 +17,7 @@ class LinuxPlatform(TorPlatform):
     def install_tor(self):
         """Install Tor using apt"""
         self.logger.info("Installing Tor...")
-        subprocess.run(["sudo", "apt", "update"], check=True)
+        subprocess.run(["sudo", "apt", "update"], check=True )
         subprocess.run(["sudo", "apt", "install", "-y", "tor"], check=True)
         self.logger.info("Tor installed successfully")
     
