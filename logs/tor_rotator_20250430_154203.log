@@ -1,9 +1,0 @@
-2025-04-30 15:42:03,584 - INFO - Starting Tor IP Rotator
-2025-04-30 15:42:03,585 - INFO - [+] Starting Tor service...
-2025-04-30 15:42:08,590 - INFO - Tor service started
-2025-04-30 15:42:08,590 - INFO - Tor setup complete and running
-2025-04-30 15:42:08,590 - INFO - Starting IP rotation loop
-2025-04-30 15:42:18,620 - WARNING - Error with https://api.ipify.org?format=json: SOCKSHTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by ConnectTimeoutError(<urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000019E3FB55820>, 'Connection to api.ipify.org timed out. (connect timeout=10)'))
-2025-04-30 15:42:18,621 - INFO - Current IP: [-] Unknown (check connection)
-2025-04-30 15:42:18,624 - INFO - Sleeping for 10 seconds...
-2025-04-30 15:42:20,899 - INFO - IP rotation stopped by user

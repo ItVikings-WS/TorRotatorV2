@@ -13,7 +13,7 @@ class Config:
             "log_level": "INFO",
             "log_directory": "logs",
             "ip_apis": [
-               # "https://api.ipify.org?format=json",
+                "https://api.ipify.org?format=json",
                 "https://api.myip.com"
                
             ]

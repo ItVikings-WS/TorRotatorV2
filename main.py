@@ -1,4 +1,5 @@
-# main.py
+# Developed by Mostafa Amed @itvikings 
+# under the guidance of Sr- Ahmed Samy 
 import os
 import sys
 import time
@@ -65,4 +66,6 @@ def main():
 
 ## check with curl ------> curl  --socks5 127.0.0.1:9050 'https://api.ipify.org?format=json'
 if __name__ == "__main__":
+
+    print('[+] Started Proxy-Server at 127.0.0.1:9050 ')
     main()
